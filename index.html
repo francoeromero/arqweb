@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta property="og:image" content="http://www.imagehover.io/imagehover-og.jpg">
+        <meta property="og:site_name" content="Imagehover.css">
+        <meta property="og:title" content="Imagehover.css - An Image Hover CSS Library">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Impacto Visual</title>
+        <link href="css/demo-page.css" rel="stylesheet" media="all">
+        <link href="css/imagehover.min.css" rel="stylesheet" media="all">
+        <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+
+        
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+        <!-- IMAGE HOVER -->
+        <!-- <div class="effects">
+            <h3>The Classes</h3>
+            <div class="demo">
+            <figure class="imghvr-fade"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-fade</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-push-up"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-push-up</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-push-down"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-push-down</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-push-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-push-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-push-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-push-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-slide-up"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-slide-up</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-slide-down"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-slide-down</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-slide-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-slide-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-slide-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-slide-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-reveal-up"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-reveal-up</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-reveal-down"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-reveal-down</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-reveal-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-reveal-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-reveal-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-reveal-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-hinge-up"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-hinge-up</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-hinge-down"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-hinge-down</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-hinge-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-hinge-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-hinge-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-hinge-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-flip-horiz"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-horiz</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-flip-vert"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-vert</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-flip-diag-1"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-diag-1</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-flip-diag-2"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-flip-diag-2</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-shutter-out-horiz"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-shutter-out-horiz</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-shutter-out-vert"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-shutter-out-vert</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-shutter-out-diag-1"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-shutter-out-diag-1</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-shutter-out-diag-2"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-shutter-out-diag-2</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-shutter-in-horiz"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-shutter-in-horiz</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-shutter-in-vert"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-shutter-in-vert</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-shutter-in-out-horiz"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-shutter-in-out-horiz</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-shutter-in-out-vert"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-shutter-in-out-vert</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-shutter-in-out-diag-1"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-shutter-in-out-diag-1</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-shutter-in-out-diag-2"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-shutter-in-out-diag-2</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-fold-up"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-fold-up</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-fold-down"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-fold-down</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-fold-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-fold-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-fold-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-fold-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-zoom-in"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-zoom-in</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-zoom-out"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-zoom-out</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-zoom-out-up"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-zoom-out-up</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-zoom-out-down"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-zoom-out-down</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-zoom-out-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-zoom-out-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-zoom-out-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-zoom-out-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-zoom-out-flip-horiz"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-zoom-out-flip-horiz</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-zoom-out-flip-vert"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-zoom-out-flip-vert</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-blur"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-blur</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-switch-up"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-switch-up</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-switch-down"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-switch-down</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-switch-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-switch-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-switch-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-switch-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-pivot-in-top-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-pivot-in-top-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-pivot-in-top-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-pivot-in-top-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-pivot-in-bottom-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-pivot-in-bottom-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-pivot-in-bottom-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-pivot-in-bottom-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-pivot-out-top-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-pivot-out-top-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-pivot-out-top-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-pivot-out-top-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-pivot-out-bottom-left"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-pivot-out-bottom-left</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-pivot-out-bottom-right"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-pivot-out-bottom-right</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-fall-away-horiz"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-fall-away-horiz</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-fall-away-vert"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-fall-away-vert</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-fall-away-cc"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-fall-away-cc</textarea>
+            </div>
+            <div class="demo">
+            <figure class="imghvr-fall-away-ccc"><img src="example-image.jpg" alt="example-image">
+                <figcaption>
+                <h3>Hello World</h3>
+                <p>Life is too important to be taken seriously!</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+            <textarea onclick="this.focus();this.select()" readonly="readonly">imghvr-fall-away-ccc</textarea>
+            </div>
+        </div> -->
+        <!-- FIN IMAGE HOVER -->
+        
+
+
+        
+	<!---header--->
+	<header>
+		<a href="#services" class="logo"><img src="img/logo_aw.png"></a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+
+		<ul class="navbar">
+			<li><a href="#home">Inicio</a></li>
+			<li><a href="#about">Sobre mi</a></li>
+			<li><a href="#services">Skills</a></li>
+			<li><a href="#portfolio">Portafolio</a></li>
+			<li><a href="#contact">Contacto</a></li>
+		</ul>
+	</header>
+
+
+
+
+	<!---home--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h4></h4>
+			<!-- <h1>ARQ <span>WEB</span></h1> -->
+            <div class="titulo" style="display: flex; align-items: center; justify-content: center; ">
+                <img src="./img/logo_color.png" width="90" alt="">
+                <img src="./img/ARQWEB.png" alt="" width="300">
+            </div>
+			<h3>Servicios de Diseño y Desarrollo Web <br>Dirigido para:</h3>
+            <ul>
+                <li><img src="./img/check.png" class="check" width="30"><p>Constructoras</p></li>
+                <li><img src="./img/check.png" class="check" width="30"><p> Estudios de Arquitectura</p></li>
+                <li><img src="./img/check.png" class="check" width="30"><p> Arquitectos independientes</p></li>
+                <li><img src="./img/check.png" class="check" width="30"><p> Estudiantes de Arquitectura</p></li>
+                <li><img src="./img/check.png" class="check" width="30"><p> Diseñadores de interiores</p></li>
+            </ul>
+			<a href="#contact" class="btn">Cotiza tu Web</a>
+		</div>
+	</section>
+
+	
+	<!---about--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.png">
+		</div>
+
+		<div class="about-text">
+			<h2>Sobre mi</h2>
+			<h4>Egresado de la Facultad de Arquitectura Diseño y Urbanismo (FADU UBA)</h4>
+			<p>Soy un profesional en tecnología con una amplia experiencia en el Diseño, Animaciones y Desarrollo web. He trabajado en diversos proyectos a lo largo de mi carrera, y he adquirido una sólida base de conocimientos y habilidades en el área de tecnología. Me encanta trabajar en proyectos creativos y estoy buscando constantemente nuevos desafios para seguir creciendo profesionalmente.</p>
+			<div class="about-gri">
+
+				<!-- <div class="about-in">
+					<h5>ʜᴀʙɪʟɪᴅᴀᴅᴇs ᴘʀᴏғᴇsɪᴏɴᴀʟᴇs:</h5>
+				</div>
+				<div class="about-in">
+					<h5>Autocad - Revit - Adobe Photoshop</h5>
+				</div>
+
+				<div class="about-in">
+					<h5>3ds Max - Blender - Sketchup</h5>
+				</div>
+
+				<div class="about-in">
+					<h5>Lumion - Unreal Engine</h5>
+				</div>
+
+				<div class="about-in">
+					<h5>Adobe After Effect - Adobe Premier</h5>
+				</div>
+
+				<div class="about-in">
+					<h5>HTML5 - CSS - JavaScript</h5>
+				</div> -->
+
+			</div>
+			<a href="#contact" class="btn">Mi CV</a>
+		</div>
+	</section>
+	<!-- fin about  -->
+
+	<!---services--->
+	<section class="services" id="services">
+		<div class="main-text">
+			<h2>Habilidades profesionales</h2>
+			<h4>Dibujante 2D, Animaciones, Modelado 3D, Diseño y desarrollo web </h4>
+		</div>
+
+		<div class="services-content">
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv1.png">
+				<h3>HTML</h3>
+				<!-- <p> Presentación de la documentación lde Obra, croquis preliminares, anteproyectos y proyectos arquitectónicos a través del Autocad </p> -->
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv2.png">
+				<h3>JavaScript</h3>
+				<!-- <p>Diseño y programo tu pagina web para tu marca personal o empresa, a traves de lenguajes de programación, incluyendo dominio y hosting</p> -->
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv3.png">
+				<h3>CSS</h3>
+				<!-- <p>Modelo, diseño, y realizo animaciones en 3D con proyectos arquitectónicos con ediciones cinematográficas o comerciales</p> -->
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv4.png">
+				<h3>AutoCad</h3>
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv5.png">
+				<h3>Revit</h3>
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv6.png">
+				<h3>Sketchup</h3>
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv7.png">
+				<h3>3dsMax</h3>
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv8.png">
+				<h3>Blender</h3>
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv9.png">
+				<h3>Unreal Engine</h3>
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv10.png">
+				<h3>Photoshop</h3>
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv11.png">
+				<h3>Premier</h3>
+			</div>
+			</a>
+
+			<a href="#portfolio" class="contentbox">
+			<div class="box">
+				<img src="img/serv12.png">
+				<h3>After Effect</h3>
+			</div>
+			</a>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+	<!---portfolio--->
+
+	<section class="portfolio" id="portfolio">
+		<!--TITULOS-->
+		<div class="main-text">
+			<h2>Mi Portfolio</h2>
+			<h4>Algunos de mis distinguidos trabajos</h4>
+		</div>
+		<!--FIN TITULOS-->
+
+		
+		<div class="portfolio-content">
+
+		<!--CUADRO1-->
+			<div class="row">
+				<a href="portafolio1.html">
+					<img src="img/portfolio1.jpg">
+				</a>
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Programación</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3>Páginas web para empresas o marcas</h3>
+			</div>
+		<!--FIN CUADRO1-->
+
+
+		<!--CUADRO2-->
+			<div class="row">
+				<a href="#">
+					<img src="img/portfolio2.jpg">
+				</a>
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Arquitectura</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3>Proyectos arquitectónicos</h3>
+			</div>
+		<!--FIN CUADRO2-->
+
+		<!--CUADRO3-->
+			<div class="row">
+				<a href="#">
+					<img src="img/portfolio3.jpg">
+				</a>
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Arte y Diseño</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3>Animaciones artísticas y diseño</h3>
+			</div>
+		<!--FIN CUADRO3-->
+
+		<!--CUADRO4-->
+			<div class="row">
+				<a href="#">
+					<img src="img/portfolio4.jpg">
+				</a>
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Animaciones</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3>Animaciones creativas y diseño gráfico</h3>
+			</div>
+		<!--FIN CUADRO4-->
+
+		<!--CUADRO5-->
+			<div class="row">
+				<a href="#">
+					<img src="img/portfolio5.jpg">
+				</a>
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Productos</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3>Modelado 3D de productos</h3>
+			</div>
+		<!--FIN CUADRO5-->
+
+		<!--CUADRO6-->
+			<div class="row">
+				<a href="#">
+					<img src="img/portfolio6.jpg">
+				</a>
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Development</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3>Mobile app landing design & Services</h3>
+			</div>
+		<!--FINCUADRO6-->
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+	<!---contact--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contáctame</h2>
+			<h4>Vamos a trabajar juntos</h4>
+			<p>Enviame un mail a mi correo o mandar un mensaje por aca</p>
+			<div class="contact-list">
+				<li><a href="https://www.google.com.ar/maps/@-34.6158037,-58.5033386,12z" target="_blank" >Ciudad Autónoma de Buenos Aires - Argentina</a></li>
+				<li><a href="mailto:franromeroeze@gmail.com?subject=contacto&body=Hola%2C%20te%20contacto%20desde%20tu%20p%C3%A1gina%20y%20%20estoy%20interesado%20en%20conocer%20m%C3%A1s%20sobre%20ti%20y%20tu%20trabajo.%20" target="_blank">franromeroeze@gmail.com</a></li>
+				<li><a href="#">+5491151214792</a></li>
+			</div>
+			<div class="contact-icons">
+				<a href="https://www.linkedin.com/in/franco-ezequiel-romero-38ab541a3/"><i class='bx bxl-linkedin' ></i></a>
+				<a href="https://github.com/franromeroe"><i class='bx bxl-github' ></i></a>
+				<a href="#"><i class='bx bxl-dribbble' ></i></a>
+				<a href="https://www.youtube.com/channel/UCj8VgHtcox46beRA0DcoPDA"><i class='bx bxl-youtube' ></i></a>
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<form action="">
+				<input type="" placeholder="introduce tu nombre " required>
+				<input type="email" placeholder="introduce tu email" required>
+				<input type="" placeholder="introduce el titulo">
+				<textarea name="" id="" cols="40" rows="10" placeholder="Escribe tu mensaje.." required></textarea>
+				<input type="submit" value="Enviar" class="send">
+			</form>
+		</div>
+	</section>
+
+	<div class="last-text">
+		<p> Franromeroe © 2022</p>
+	</div>
+
+	<!---scroll-top--->
+	<a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="js/script.js"></script>
+
+    </body>
+</html>
