@@ -196,7 +196,11 @@ img.displaySlide{
 	width: 50%;
 	background: transparent;
 	border: none;
-
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	color:rgba(255, 255, 255, 0.5);
+	cursor: pointer;
 }
 
 .next{
@@ -206,6 +210,11 @@ img.displaySlide{
 	width: 50%;
 	background: transparent;
 	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	color:rgba(255, 255, 255, 0.5);
+	cursor: pointer;
 }
 
 
