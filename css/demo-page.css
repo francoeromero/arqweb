@@ -46,10 +46,42 @@ body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
+
+.subHeader{
+	width: 100%;
+	height: 3rem;
+	background: rgb(164, 164, 164)(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.subHeader_col1{
+	display: flex;
+	flex-direction: row;
+}
+
+.subHeader_col1 a{
+	color: white;
+	margin-left: 0;
+	margin-right: 2rem;
+}
+
+.subHeader_col2 li{
+	display: flex;
+}
+.subHeader_col2 li i{
+	margin-right: 1rem;
+}
+.subHeader_col2 li a{
+	color: white;
+}
+
 header{
 	position: fixed;
 	right: 0;
 	top: 0;
+	margin-top: 4rem;
 	width: 100%;
 	z-index: 1000;
 	display: flex;
@@ -102,14 +134,14 @@ section{
 
 .home{
 	height: 100vh;
-	width: 100%;
+	width: 105%;
 	position: relative;
 	background: url(../img/background.jpg);
 	background-size: cover;
 	background-position: center;
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 .home::after {
   content: '';
@@ -125,12 +157,65 @@ section{
 }
 .home-text{
   z-index: 3;
+  margin-right: 5rem;
 }
 .home-text ul{
   width: 20rem;
   margin-top: -2rem;
   margin-bottom: 2rem;
 }
+/* --------------------------------------------------------------- */
+.home-webs{
+	width: 40rem;
+	height: 30rem;
+	background: transparent;
+	z-index: 9;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider img {
+	height: 100%;
+	width: 100%;
+	display: none;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+img.displaySlide{
+	display: block;
+	animation-name: fade;
+	animation-duration: 2s;
+}
+
+.prev{
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 50%;
+	background: transparent;
+	border: none;
+
+}
+
+.next{
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 50%;
+	background: transparent;
+	border: none;
+}
+
+
+@keyframes fade{
+	0%{opacity: 0;}
+	10%{opacity: .2;}
+	100%{opacity: 1;}
+}
+/* --------------------------------------------------------------------- */
+
 .check{
   margin-right: 0.5rem;
 }
@@ -186,7 +271,8 @@ span{
 header.sticky{
 	padding: 10px 16%;
 	background: var(--bg-color);
-	border-bottom: 1px solid #0e1630;
+	/* border-bottom: 1px solid #0e1630; */
+	margin-top: 0rem;
 }
 
 
@@ -466,7 +552,9 @@ form textarea{
 
 
 @media (max-width: 1325px){
+
 	header{
+		/* margin-top: 0; */
 		padding: 16px 3%;
 	}
 	header.sticky{
@@ -487,6 +575,12 @@ form textarea{
 		--h1-font: 4.2rem;
 	  --h2-font: 2.9rem;
 	  --p-font: 1rem;
+	}
+	.subHeader{
+		display: none;
+	}
+	header{
+		margin-top: 0;
 	}
 	section{
 		padding: 70px 3% 60px;
