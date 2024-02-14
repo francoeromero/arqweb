@@ -636,7 +636,11 @@ form textarea{
 		width: 100%;
 	}
 	.home-webs{
-		width: 120%;
+		width: 100vh;
+		border: 2px solid red;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	.about{
 		grid-template-columns: 1fr;
