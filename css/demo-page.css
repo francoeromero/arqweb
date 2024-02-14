@@ -629,14 +629,14 @@ form textarea{
 		width: 120%;
 	}
 	header.sticky{
-		margin-top: 2rem; /*  2rem */
+		margin-top: 0rem; /*  2rem */
 	}
 	.home-text{
 		margin-bottom: -10rem;
-		width: 110%;
+		width: 100%;
 	}
 	.home-webs{
-		width: 110%;
+		width: 120%;
 	}
 	.about{
 		grid-template-columns: 1fr;
