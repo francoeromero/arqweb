@@ -66,15 +66,21 @@ body{
 	margin-left: 0;
 	margin-right: 2rem;
 }
-
-.subHeader_col2 li{
+.subHeader_col2{
 	display: flex;
 }
-.subHeader_col2 li i{
+.subHeader_col2 li{
+	display: flex;
 	margin-right: 1rem;
+	align-items: center;
+	justify-content: center;
+}
+.subHeader_col2 li a i{
+	margin-right: 0.4rem;
 }
 .subHeader_col2 li a{
 	color: white;
+	display: flex;
 }
 
 
@@ -136,7 +142,7 @@ header{
 	z-index: 1000;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	background: transparent;
 	padding: 22px 16%;
 	border-bottom: 1px solid transparent;
@@ -144,7 +150,7 @@ header{
 }
 /* modificacion 7/1  */
 .logo img{
-	width: 200px;
+	width: 80px;
 	height: auto;
 }
 .navbar{
