@@ -34,9 +34,9 @@
 
 :root{
 	--bg-color: #546272;
-	--text-color: #fff;
-	--main-color: #909090;
-	--second-color: gray;
+	--text-color: #404040;
+	--main-color: #e0e0e0;
+	--second-color: rgb(208, 208, 208);
 	--other-color: #12141c;
 	--h1-font: 5.2rem;
 	--h2-font: 3.5rem;
@@ -77,11 +77,61 @@ body{
 	color: white;
 }
 
+
+/* HEADER BLANCO */
+
+.subHeader_2{
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	background: white;
+	padding-right: 10rem;
+	padding-left: 10rem;
+}
+
+.content_subheader_2{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+}
+
+.content_subheader_2 a{
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	justify-content: center; 
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+.logo_subheader_2:hover{
+	cursor: pointer;
+	filter:brightness(1.2);
+}
+.wp:hover{
+	cursor: pointer;
+	filter:brightness(1.2);
+}
+
+.content_subheader_2 a:hover img{
+	filter:brightness(1.3);
+	cursor: pointer;
+	scale: 1.1;
+	transition: 1.5s;
+}
+
+.content_subheader_2 a p{
+	font-weight: bold;
+	color: #12141c;
+	font-size: 0.7rem;
+}
+
 header{
 	position: fixed;
 	right: 0;
 	top: 0;
-	margin-top: 4rem;
+	margin-top: 8rem;
 	width: 100%;
 	z-index: 1000;
 	display: flex;
@@ -158,6 +208,7 @@ section{
 .home-text{
   z-index: 3;
   margin-right: 5rem;
+  color: rgb(195, 195, 195);
 }
 .home-text ul{
   width: 20rem;
@@ -270,6 +321,8 @@ span{
 .btn:hover{
 	transform: scale(1.01) translateY(-5px);
 	background: transparent;
+	color: white;
+	font-weight: bold;
 	border: 1px solid var(--main-color);
 }
 
@@ -626,7 +679,7 @@ form textarea{
 		height: 200vh;
 		justify-content: space-evenly;
 		align-items: center;
-		width: 120%;
+		width: 150%;
 	}
 	header.sticky{
 		margin-top: 0rem; /*  2rem */
@@ -637,7 +690,6 @@ form textarea{
 	}
 	.home-webs{
 		width: 100vh;
-		border: 2px solid red;
 		display: flex;
 		align-items: center;
 		justify-content: center;
